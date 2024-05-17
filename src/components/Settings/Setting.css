@@ -1,0 +1,28 @@
+.btn-set {
+    border: 0px;
+    font-size: 16px;
+    background-color: transparent
+}
+
+.dropup {
+    position: relative;
+
+}
+
+.dropdown-content {
+    display: none;
+
+    position: absolute;
+    top: -100%;
+
+    background-color: white;
+    min-width: 100px;
+
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.dropup:hover .dropdown-content {
+    display: block;
+}
